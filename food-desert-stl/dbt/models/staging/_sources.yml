@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    dataset: food_desert
+    tables:
+      - name: places
+      - name: census

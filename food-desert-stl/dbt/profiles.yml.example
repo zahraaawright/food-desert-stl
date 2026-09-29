@@ -1,0 +1,10 @@
+food_desert_stl:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: your-gcp-project-id
+      dataset: food_desert
+      threads: 4
+      location: US

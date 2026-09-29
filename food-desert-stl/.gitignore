@@ -1,0 +1,30 @@
+# node / pulumi
+node_modules/
+bin/
+*.tsbuildinfo
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/profiles.yml
+
+# credentials - never commit these
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+.env
+
+# airflow
+airflow/logs/
+airflow/airflow.db
+
+# misc
+*.csv
+.DS_Store
